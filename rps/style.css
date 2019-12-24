@@ -1,0 +1,33 @@
+.container{
+    border: black 2px solid;
+    width: 75%;
+    height: 800px;
+}
+h2{
+    text-align: center;
+}
+.flexy{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+img{
+    padding: 10px;
+    margin: 30px;
+}
+.flexy img:hover{
+  box-shadow: 0px 10px 50px rgba(37,50,233,0.7);
+}
+#rock{
+    height: 200px;
+    width: 200px;
+}
+#paper{
+    height: 200px;
+    width: 200px;
+}
+#scissor{
+    height: 200px;
+    width: 200px;
+}
